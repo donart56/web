@@ -6,13 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+    <fieldset>
+    <legend>Personal information</legend>
     <form>
         <label for="firstname">Firstname : </label><br>
-        <input type="text" id="firstname" name="firstname"><br>
+        <input type="text" id="firstname" name="firstname" value="John" disabled><br>
         <label for="lastname">Lastname : </label><br>
-        <input type="text" id="lastname" name="lastname"><br>
+        <input type="text" id="lastname" name="lastname" size="32" required><br>
         <label for="password">Password : </label><br>
-        <input type="password" id="password" name="password"><br>
+        <input type="password" id="password" name="password" placeholder="password"><br>
         <label for="email">Email : </label><br>
         <input type="text" id="email" name="email"><br>
         <input type="submit" id="submit" name="submit"><br>
@@ -21,9 +23,22 @@
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
-
-    
-    </form>
+        <label>Hobbies : </label><br>
+        <label for="football">football</label><br>
+        <input type="checkbox" id="sport" name="football" value="football"><br>
+        <label for="basketball">basketball</label><br>
+        <input type="checkbox" id="sport" name="basketball" value="basketball"><br>
+        <label for="tennis">tennis</label><br>
+        <input type="checkbox" id="sport" name="tennis" value="tennis"><br>
+        <label for="pet">choose a pet : </label>
+        <select id="pet" name="pet">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Parrot">Parrot</option>
+        </select> <br>
+        <textarea name="message" rows="10" cols="20" maxlength="50"></textarea>    
+        </fieldset>
+        </form>
 
 </body>
 </html>
