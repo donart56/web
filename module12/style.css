@@ -1,0 +1,41 @@
+h1{
+    color: green;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    text-align: center;
+}
+h2{
+    text-decoration: overline;
+    writing-mode: vertical-lr 
+}
+h3{
+   
+    text-decoration: line-through;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    
+    text-decoration: underline;
+    
+}
+
+@font-face {
+    font-family: 'WhenTheStarsAlign_PERSONAL_USE_ONLY';
+    src: url(WhenTheStarsAlign_PERSONAL_USE_ONLY.otf);
+}
+
+h4{
+    text-decoration: underline;
+    font-family: 'WhenTheStarsAlign_PERSONAL_USE_ONLY';
+    color: blue !important;
+}
+
+#normaltext{
+    font-style: normal;
+}
+#italictext{
+    font-style: italic;
+}
+#obliquetext{
+    font-style: oblique;
+}
