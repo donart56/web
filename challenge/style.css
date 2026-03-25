@@ -1,0 +1,42 @@
+body{
+    background-color: magenta;
+}
+
+.navbar{
+    display:flex;
+    float:right;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    background-color: pink;
+    text-align: center;
+    gap:20px;
+    align-items: flex-start;
+}
+
+.navbar:hover .active {
+    color: blue;  
+}
+
+.h1{
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    float: center;
+    font-size: 50px;
+   
+}
+
+button{
+    display: flex;
+    padding: 25px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 700px;
+}
