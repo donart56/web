@@ -1,0 +1,53 @@
+body{
+    background-color:  lightblue;
+
+}
+
+h1{
+    float: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foto{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.foto1{
+    margin-top: 200px;
+    margin-left: 275px;
+}
+
+.foto2{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.foto3{
+    margin-top: 200px;
+    margin-left: 325px;
+}
+
+.header1{
+    margin-left: -1000px;
+    margin-top: -20 px;
+}
+
+.header2{
+    margin-left: 100px;
+    margin-top: -20 px;
+}
+.header3{
+    margin-left: -1000px;
+    margin-top: -20 px;
+}
+.header4{
+    margin-left: -1000px;
+    margin-top: -20 px;
+}
