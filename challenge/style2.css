@@ -16,7 +16,7 @@ p{
 
 .foto{
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 50px;
 }
 
 .foto1{
@@ -35,19 +35,45 @@ p{
 }
 
 .header1{
-    margin-left: -1000px;
+    margin-left: -1450px;
     margin-top: -20 px;
 }
 
 .header2{
-    margin-left: 100px;
-    margin-top: -20 px;
+    margin-left: -700px;
+    margin-top: -50px;
 }
 .header3{
-    margin-left: -1000px;
-    margin-top: -20 px;
+    margin-left: 200px;
+    margin-top: -50px;
 }
 .header4{
-    margin-left: -1000px;
-    margin-top: -20 px;
+    margin-left: 1100px;
+    margin-top: -50px;
 }
+
+.paragraph1{
+    margin-left: -1400px;
+    margin-top: 50px;
+    font-size: small;
+}
+
+.paragraph2{
+    margin-left: -700px;
+    margin-top: -100px;
+    font-size: small;
+}
+
+.paragraph3{
+    margin-left: 200px;
+    margin-top: -60px;
+    font-size: small;
+}
+
+.paragraph4{
+    margin-left: 1100px;
+    margin-top: -90px;
+    font-size: small;
+}
+
+
