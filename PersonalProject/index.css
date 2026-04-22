@@ -9,10 +9,8 @@ body{
     align-items: center;
     background-color: rgb(173, 216, 230);
     height: 70px;
-    gap: 60px;
-    width: 100%;
-    padding-right: 60px;
-    box-sizing: border-box;
+    gap: 80px;
+    width: 100%;;
 }
 
 .header a{
