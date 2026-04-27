@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(173, 216, 230);
+    height: 70px;
+    gap: 80px;
+    width: 100%;;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.foto{
+    width: 150px;
+    float: left;
+    margin-top: -10px;
+}
