@@ -26,3 +26,11 @@ var txt1=document.getElementById('txt1')
         txt1.style.padding='20px';
         txt1.style.fontSize='100px';
     }
+
+
+    var button4=document.getElementById('btn4');
+
+    button4.onclick=function(){
+        txt1.setAttribute("class","text")
+
+    }
