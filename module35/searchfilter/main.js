@@ -19,5 +19,6 @@ function search(){
         }else}
             li[i].style.display = "none"; 
         }
+    {
     }
-}
+{}
